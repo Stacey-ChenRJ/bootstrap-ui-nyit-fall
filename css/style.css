@@ -1,3 +1,19 @@
+:root {
+    --D-Primary-main: #F2620F;
+    --D-Secondary-main: #A66038;
+    --D-Tertiary-main: #59271C;
+    --D-font: "Abhaya Libre";
+    --D-text: #323232;
+}
+
+p{
+    font-family: var(--D-font);
+    color: var(--D-text);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--D-font);
+
+
 .my-button{
-    background-color:#fd7e14
+    background-color: var(--D-Primary-main);
 }
