@@ -3,11 +3,12 @@
     --D-Secondary-main: #A66038;
     --D-Tertiary-main: #59271C;
     --D-font: "Abhaya Libre";
+    --D-font-text: "sans-serif";
     --D-text: #323232;
 }
 
 p{
-    font-family: var(--D-font);
+    font-family: var(--D-font-text);
     color: var(--D-text);
 }
 h1,h2,h3,h4,h5,h6{
