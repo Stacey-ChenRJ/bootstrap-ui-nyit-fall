@@ -1,20 +1,72 @@
+
 :root {
-    --D-Primary-main: #F2620F;
-    --D-Secondary-main: #A66038;
-    --D-Tertiary-main: #59271C;
-    --D-font: "Abhaya Libre";
-    --D-font-text: "sans-serif";
+    --D-Primary-main: #F2620F;  /* Main button color */
+    --D-Secondary-main: #A66038;  /* Secondary button color */
+    --D-Tertiary-main: #59271C; /* Tertiary button color */
+    --D-button-text: #FFFFFF;   /* Button text color */
+    --D-button-hover-bg: #007bff; /* Hover background color (blue) */
+}
+
+
+
+    /* Google fonts */
+    --D-font-heading: 'Abhaya Libre', serif; /* For headings */
+    --D-font-text: 'Open Sans', sans-serif;  /* For paragraphs and links */
     --D-text: #323232;
 }
 
-p{
+
+/* Paragraphs and links */
+p, a {
     font-family: var(--D-font-text);
     color: var(--D-text);
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--D-font);
 
-
-.my-button{
-    background-color: var(--D-Primary-main);
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--D-font-heading);
 }
+
+
+
+/* Button style */
+.btn-primary {
+    background-color: var(--D-Primary-main); /* Set the main button background color */
+    color: var(--D-button-text);  /* Set the button text color to white */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--D-button-hover-bg); /* Set the hover background color to blue */
+}
+
+
+/* Secondary button style */
+.btn-secondary {
+    background-color: var(--D-Secondary-main); /* Set the secondary button background color */
+    color: var(--D-button-text);  /* Set the button text color to white */
+    
+}
+
+.btn-secondary:hover {
+    background-color: var(--D-button-hover-bg); /* Set the hover background color to blue */
+}
+
+
+/* LinkedIn button style */
+.btn-linkedin {
+    background-color: #2D64BC;  /* LinkedIn blue color */
+    color: white;  /* Set text color to white */
+    border: none;
+}
+
+.btn-linkedin:hover {
+    background-color: #2D64BC;  /* Darker LinkedIn blue for hover effect */
+    color: white;
+}
+
+
